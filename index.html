@@ -1,7 +1,7 @@
 ---
 layout: default
-home-title: H2O Theme For Jekyll
-description: 或许是最漂亮的Jekyll主题
+home-title: Brian Lima
+description: .Net drinker, Coffee Developer
 ---
 
 {% include header.html %}
@@ -10,7 +10,7 @@ description: 或许是最漂亮的Jekyll主题
     <h2>{{ page.home-title }}</h2>
     <h3>{{ page.description }}</h3>
     {% if page.header-img %}
-    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
+    <img class="header-img" src="assets/img/banner.jpg" alt="{{ page.header-img | prepend: site.baseurl }}">
     {% endif %}
 </div>
 
