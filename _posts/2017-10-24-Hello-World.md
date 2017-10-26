@@ -2,6 +2,8 @@
 layout: post
 title: Prelude
 category: Text
+cover: 'assets/img/prelude.jpg'
+subtitle: 'Where did i come from'
 ---
 
 Hello, i'm Brian Lima, a 23 developer from Brazil, who likes Visual Studio and C# to a point that it might be even too much sometimes.
