@@ -2,6 +2,8 @@
 layout: post
 title: About UWPHook
 tags: UWP Windows UWPHook 
+cover: 'https://camo.githubusercontent.com/59b26dd3ed2601dd30a0523ca119ad5778a211c2/687474703a2f2f696d6775722e636f6d2f675777523032442e706e67'
+subtitle: 'Or how to fix simple things with simple code'
 ---
 
 So when Windows 8 Arrived Microsoft introduced their new way to distribute apps via the ~~Windows~~ Microsoft Store, using what they call "Universal Apps", aka UWP applications, initially it was meant to host mobile apps for phones and tablets, but the scope grew fast.
