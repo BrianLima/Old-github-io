@@ -5,31 +5,72 @@ layout: default
 
 {% include header.html %}
 
+<style>
+        #projects {
+            font-family: "Calibri", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #projects td, #projects th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        #projects tr:nth-child(even){background-color: #f2f2f2;}
+        
+        #projects tr:hover {background-color: #ddd;}
+        
+        #projects th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #00b2ff;
+            color: white;
+        }
+        </style>
+
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>TAGS</h2>
 </div>
 
 <main class="tags-content">
-
-    <ul class="tags-list">
-        <li>
-        {% if site.recommend-tags and site.tags.size>0 %}
-            {% for tag in site.tags %}
-            <a href="#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
-            {% endfor %}
-        {% endif %}
-        </li>
-        {% for tag in site.tags %}
-        <li>
-            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
-            {% for post in tag[1] %}
-            <a class="tag-post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            {% endfor %}
-        </li>
-        
+        <div class="post-wrapper">
+                <article class="markdown-body">
+                        <table id="projects">
+                                <tr>
+                                  <th>Project</th>
+                                  <th>Description</th>
+                                  <th>Source</th>
+                                  <th>Download</th>
+                                </tr>
+                                <tr>
+                                  <td>HueHue</td>
+                                  <td>Arduino powered LED controller for Windows</td>
+                                  <td><a href = https://github.com/BrianLima/HueHue /> Source</td>
+                                  <td><a href = https://github.com/BrianLima/HueHue/releases /> Release </td>
+                                </tr>
+                                <tr>
+                                  <td>UWPHook</td>
+                                  <td>Add Windows Store games to Steam</td>
+                                  <td><a href = https://github.com/BrianLima/UWPHook /> Source</td>
+                                  <td><a href = https://github.com/BrianLima/UWPHook/releases /> Release </td>
+                                </tr>
+                                <tr>
+                                  <td>Quick for Cortana</td>
+                                  <td>Audible notes using Cortana</td>
+                                  <td><a href = https://github.com/BrianLima/UWPHook /> Source</td>
+                                  <td><a href = https://github.com/BrianLima/UWPHook/releases /> Release </td>
+                                </tr>
+                                <tr>
+                                  <td>Backstage</td>
+                                  <td>Project manager</td>
+                                  <td>Private</td>
+                                  <td>Private </td>
+                                </tr>
+                              </table>
+                </article>
         </div>
-        {% endfor%}
-    </ul>
 </main>
     
 {% include footer.html %}
