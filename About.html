@@ -1,35 +1,28 @@
 ---
-title: Tags
-layout: default
+title: About
+layout: post
 ---
 
 {% include header.html %}
 
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
-    <h2>TAGS</h2>
+    <h2>ABOUT</h2>
 </div>
 
-<main class="tags-content">
-
-    <ul class="tags-list">
-        <li>
-        {% if site.recommend-tags and site.tags.size>0 %}
-            {% for tag in site.tags %}
-            <a href="#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
-            {% endfor %}
-        {% endif %}
-        </li>
-        {% for tag in site.tags %}
-        <li>
-            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
-            {% for post in tag[1] %}
-            <a class="tag-post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            {% endfor %}
-        </li>
-        
-        </div>
-        {% endfor%}
-    </ul>
+<main>
+    <div class="post-wrapper">
+        <h1>About Me</h1>
+        <p>Brian Lima is a Brazilian developer, age 23, who works with .Net and C# since he was 16, he is a junior developer at Itaesbra, 
+            a metalurgic company situated in Diadema - São Paulo, previously worked at Aplisoftware, a software house in São Bernardo do Campo, also in São Paulo</p>
+        <p>He is graduated in a technician degree on ETEC Lauro Gomes on Computer programming, and incomplete Cience Computer bachelor's degree on Universidade Federal do ABC </p>
+        <p>Since then, by building open source tools for the community and by mantaining various aplications for the companys where he worked, he developed a passion for C# and Visual Studio,
+           but also knows his way through JS, Visual Basic and Java, by working on corporate environments he also developed a crush on Linux servers and QT applications.</p>
+        <p>By involving with the casemodding community at Campus Party, a gigantic local Lan-Party in São Paulo, he learned to create solutions using platforms like Arduinos and by
+            working with more 'manual' jobs, crafting his way through computer hardware, and by stealing the show flor with Arduino powered computer cases.</p>
+        <p>Recently, he created a small tool called UWPHook, that helped gamers to make Windows Store games more familiar for those who like Steam's UI, and is working on
+            HueHue, an Arduino powered LED controller for PC cases and similar gear.
+        </p>
+    </div>
 </main>
     
 {% include footer.html %}
