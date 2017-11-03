@@ -41,15 +41,16 @@ theme-color: 'default'  # pink or default
 postPatterns: 'circuitBoard'
 
 # SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
-sns:
-  linkedin: 'https://linkedin.com//brian-lima-dos-santos-25345754/'
+sns: 
+  github: '//github.com//BrianLima'
   twitter: 'https://twitter.com//brianostorm'
+  linkedin: 'https://linkedin.com//brian-lima-dos-santos-25345754/'
   facebook: 'https://facebook.com//brianlima'
   instagram: '//www.instagram.com//Brianostorm'
-  github: '//github.com//BrianLima'
+
 
 # Tags
-recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-tags: false # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
