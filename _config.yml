@@ -1,4 +1,4 @@
-# Site settings 
+# Site settings
 title: 'Brian Lima'
 description: 'Dev and personal blog for my adventures'
 keyword: 'C#, CSharp, Briano, Brian Lima, Programador, WPF, UWPHook, brianostorm'
@@ -14,23 +14,11 @@ nav:
   projects: '/Projects.html'
   about: '/About.html'
 
-<<<<<<< HEAD
-# Author 
+# Author
 author: 'Brian Lima'
 nickname: 'Briano/Brianostorm'
 bio: '23, .Net developer, likes Visual Studio and Windows, loves to build PCs and mess with hardware, drinks more coffee than he should.'
 avatar: 'https://avatars1.githubusercontent.com/u/1337383?s=460&v=4'
-=======
-# Footer
-footer:
-  since: 2017
-
-# Author 配置博主信息
-author: '廖柯宇'
-nickname: '悟空'
-bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
-avatar: '/assets/img/profile.png'
->>>>>>> 2c3a5d48786458ab52740861e91eac2c11c5977d
 
 # Search
 search: true
@@ -38,19 +26,9 @@ search: true
 # Night mode
 nightMode: true
 
-<<<<<<< HEAD
 # Comments
 disqus: false
 disqus_url: 'https://brianlima.disqus.com/embed.js'
-=======
-# Comments 评论功能
-comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
-
-# MathJax 公式支持 by Ray-Eldath
-mathjax: true
->>>>>>> 2c3a5d48786458ab52740861e91eac2c11c5977d
 
 # Share
 social-share: true
@@ -70,7 +48,7 @@ sns:
   twitter: 'https://twitter.com//brianostorm'
   facebook: 'https://facebook.com//brianlima'
   instagram: '//www.instagram.com//Brianostorm'
-  
+
 
 # Tags
 recommend-tags: true # whether or not display recommend-tags on the sidebar
