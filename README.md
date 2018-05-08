@@ -1,48 +1,48 @@
 ## jekyll-theme-H2O
 
-基于Jekyll的博客主题模板，简洁轻量。
+Based on Jekyll's blog theme template, simple and lightweight.
 
-另外，还有此主题的[Ghost版本](https://github.com/eastpiger/ghost-theme-H2O) by [eastpiger](https://github.com/eastpiger)
+In addition, there is the [Ghost version] of this theme (https://github.com/eastpiger/ghost-theme-H2O) by [eastpiger](https://github.com/eastpiger)
 
 ### Preview
 
-#### [在线预览 Live Demo →](http://liaokeyu.com/)
+#### [Online Preview Live Demo →] (http://liaokeyu.com/)
 
 ![](screenshot/jekyll-theme-h2o-realhome.jpg)
 
 ![](screenshot/jekyll-theme-h2o-realm.png)
 
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
+If you like this blog template, please star in the upper right corner, thank you very much~
 
 If you like this theme or using it, please give a ⭐️ for motivation ;)
 
-如果想体验手机浏览效果，可以扫一下二维码：
+If you want to experience mobile browsing, you can scan the QR code:
 
 ![](screenshot/1494404591.png)
 
 Using your smartphone to scan the QR Code
 
-### Features 特性
+### Features Features
 
 #### CN
 
-- 代码高亮
-- 夜间模式
-- Disqus评论系统
-- 粉蓝两种主题色
-- 头图个性化底纹
-- 响应式设计
-- 社交图标
-- SEO标题优化
-- 文章标签索引
-- 博客文章搜索
-- 复制文章内容自动添加版权
+- Code highlighting
+- Night mode
+- The review system
+- Pink and blue two themes
+- Personalized shading
+- Responsive design
+- Social icons
+- SEO title optimization
+- Article Label Index
+- Blog Article Search
+- Copy article content automatically add copyright
 
 #### EN
 
 - Code highlight
 - Night mode
-- Disqus Comment System
+- Connecticut Comment System
 - Theme color: Blue & Pink
 - Hero Patterns
 - Responsive design
@@ -52,239 +52,239 @@ Using your smartphone to scan the QR Code
 - Search
 - Copyright text on copy event
 
-### Usage 快速开始
+### Usage Quick Start
 
-首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
+First you need to install Jekyll, please check the documentation: [Quick Guide] (http://jekyll.com.cn/docs/quickstart/)
 
-如果你已经安装了Jekyll，请检查版本是否为3.0.x，你可以使用 ```gem update jekyll``` 命令进行升级。
+If you have installed Jekyll, check if the version is 3.0.x. You can use the ```gem update jekyll``` command to upgrade.
 
-使用 ```gem install jekyll-paginate``` 或 ```sudo gem install jekyll-paginate``` 安装Jekyll的分页插件。
+Install Jekyll's paging plugin using ```gem install jekyll-paginate``` or ```sudo gem install jekyll-paginate```.
 
-> H2O主题基于Jekyll 3.2.1版本，不同版本之间可能存在部分差异，具体请参考[官方更新文档](https://jekyllrb.com/news/)
+> The H2O theme is based on the Jekyll 3.2.1 version. There may be some differences between different versions. For details, please refer to [Official Update Document] (https://jekyllrb.com/news/)
 
-点击右上角Fork按钮在你的Github上创建分支，或者```clone```到本地。
+Click the Fork button in the upper right corner to create a branch on your Github, or ```clone``` to the local.
 
 ``` git clone https://github.com/kaeyleo/jekyll-theme-H2O.git ```
 
-最后，在命令行输入 ```jekyll server``` 开启服务，就能在本地预览主题了。
+Finally, by typing ```jekyll server``` on the command line to start the service, you can preview the topic locally.
 
-如果需要部署到线上环境，请参照配置文档的 **开始** 章节进行操作。
+If you need to deploy to an online environment, please refer to the **Start** section of the configuration document.
 
-### Document 配置文档
+### Document Configuration Document
 
 #### CN
 
-- 开始
-	- [站点信息](#站点信息)
-	- [写一篇文章](#写一篇文章)
-- 组件
-	- [导航](#导航)
-	- [侧边栏](#侧边栏)
-	- [社交图标](#社交图标)
-	- [个人简介](#个人简介)
-	- [标签](#标签)
-	- [文章搜索](#文章搜索)
-	- [代码高亮](#代码高亮)
-	- [夜间模式](#夜间模式)
-- 个性化
-	- [主题皮肤](#主题皮肤)
-	- [头图底纹](#头图底纹)
-- 高级部分
-	- [自定义](#自定义)
-- 集成服务
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
+- Start
+- [Site Information] (#site information)
+- [Write an article] (#write an article)
+- Components
+- [Navigation] (#Navigation)
+- [Sidebar] (#sidebar)
+- [Social Icons] (#Social Icons)
+- [Introduction] (#Introduction)
+- [Label] (#tag)
+- [Article search] (# article search)
+- [Code highlighting] (# code highlighting)
+- [Night mode] (#Night mode)
+- personalise
+- [Theme skin] (# theme skin)
+- [Head shading] (# head shading)
+- Advanced section
+- [Custom] (#Custom)
+- Integration Services
+- [Disqus](#Disqus)
+- [Share.js](#Share.js)
 
 #### EN
 
 - Get Started
-	- [Site Settings](#站点信息)
-	- [Write Posts](#写一篇文章)
+- [Site Settings] (#site information)
+- [Write Posts](#write an article)
 - Components
-	- [Navigation Menu](#导航)
-	- [Sidebar](#侧边栏)
-	- [SNS Icons](#社交图标)
-	- [Personal Information](#个人简介)
-	- [Tags](#标签)
-	- [Search](#文章搜索)
-	- [Syntax Highlight](#代码高亮)
-	- [Night Mode](#夜间模式)
+- [Navigation Menu] (#Navigation)
+- [Sidebar] (# sidebar)
+- [SNS Icons] (#Social Icons)
+- [Personal Information] (#personal profile)
+- [Tags] (#tag)
+- [Search] (#Article Search)
+- [Syntax Highlight] (#code highlighting)
+- [Night Mode] (#night mode)
 - Style
-	- [Theme Color](#主题皮肤)
-	- [Hero Background Patterns](#头图底纹)
+- [Theme Color] (# theme skin)
+- [Hero Background Patterns] (#header shading)
 - Advanced
-	- [Customization](#自定义)
+- [Customization] (#Custom)
 - Plugins
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
+- [Disqus](#Disqus)
+- [Share.js](#Share.js)
 
 
 You can easily get started by modifying _config.yml
 
-#### 站点信息
+#### Site Information
 
-你可以通用修改 `_config.yml` 文件来轻松的开始搭建自己的博客
+You can easily modify your `_config.yml` file to easily start building your own blog
 
 ```
 # Site settings
-title: '廖柯宇的独立博客' # 你的博客网站标题
-description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
-keyword: '廖柯宇, 廖柯宇的独立博客, 前端, 设计' # 网站关键词
-url: 'http://liaokeyu.com' # 站点url
-baseurl: ''
+Title: 'Liao Keyu's Independent Blog' # Your blog site title
+Description: 'I am very happy to share my thoughts on technology and life with you here. ' # Site Description
+Keyword: 'Liao Keyu, Liao Keyu's independent blog, front end, design' # website keywords
+Url: 'http://liaokeyu.com' # site url
+Baseurl: ''
 
 # Build settings
-paginate: 6 # 一页放几篇文章
-paginate_path: 'page:num'
+Paginate: 6 # Put a few articles on one page
+Paginate_path: 'page:num'
 ```
 
-其实大部分参数已经默认配置好了，你只需要通过文档了解它们，然后根据自己的需求去`_config.yml`文件里修改即可。
+In fact, most of the parameters have been configured by default. You only need to understand them through the documentation, and then modify them according to your needs in the `_config.yml` file.
 
-#### 写一篇文章
+#### Write an article
 
-文章一般都放在`_posts`文件夹里，每篇文章的开头都需要设置一些头信息：
+Articles are generally placed in the `_posts` folder, and the header of each article needs to be set:
 
 ```
 ---
-layout: post
-title: 'H2O theme for Jekyll'
-subtitle: '或许是最漂亮的Jekyll主题'
-date: 2017-04-18
-categories: 技术
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
-tags: jekyll 前端开发 设计
+Layout: post
+Title: 'H2O theme for Jekyll'
+Subtitle: 'Perhaps the most beautiful Jekyll theme'
+Date: 2017-04-18
+Categories: Technology
+Cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
+Tags: jekyll front-end development design
 ---
 ```
 
-#### 导航
+#### Navigation
 
-博客顶部的导航栏信息需要以下面的格式进行配置：
+The navigation bar information at the top of the blog needs to be configured in the following format:
 
 ```
 # Navigation links
-nav:
-  home: '/'
-  tags: '/tags.html'
+Nav:
+  Home: '/'
+  Tags: '/tags.html'
 ```
 
-导航链接需要写上完整的html文件名，它们都是放于根目录下的，如果自建文件夹，请务必在`exclude` 参数中增加自建文件夹的文件名:
+Navigation links need to be written with the full html file name. They are all placed in the root directory. If you create your own folder, be sure to add the file name of the self-built folder to the `exclude` parameter:
 
 ```
 # Build settings
-exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
+Exclude: ['node_modules', 'dev', 'package.json', 'Custom Folder Name']
 ```
 
-这样做是为了在Jekyll运行时排除某些文件被复制到运行文件`_site`里去。
+This is done to exclude certain files from being copied to the run file `_site` when Jekyll is run.
 
-#### 侧边栏
+#### Sidebar
 
 ![](screenshot/jekyll-theme-h2o-sideBar.png)
 
-侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。
+The sidebar is divided into two parts: [introduction] and [recommendation tag]. When the screen width is less than 960px, the sidebar will be hidden.
 
-#### 社交图标
+#### Social Icons
 
-使用阿里的图标管理平台Iconfont整理了一套常用的社交图标用于博客的个人简介上，包括微博、知乎、掘金、简书、Github等十三个网站，并且对鼠标悬停时的样式颜色进行了优化。
+Using Icon's iconic management platform, Iconfont, a set of commonly used social icons for blog personal profiles, including Weibo, Zhihui, Nuggets, short books, Github, etc., and thirteen sites, and when hovering Style colors are optimized.
 
-配置格式如下：
+The configuration format is as follows:
 
 ```
-# SNS settings 配置社交网站url
-sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+# SNS settings Configure social network URL
+Sns:
+  Weibo: '//weibo.com/lovecolcol'
+  Juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  Instagram: '//www.instagram.com/steveliaocn'
+  Github: '//github.com/kaeyleo'
 ```
 
-sns属性可选参数：
+Sns attribute optional parameters:
 
-社交网站 | 参数
+Social Website | Parameters
 --------|----
-微博 | `weibo`
-知乎 | `zhihu`
-推特 | `twitter`
-Instagram | `instagram`
-掘金 | `juejin`
+Weibo | `weibo`
+Zhihu | `zhihu`
+Twitter | `twitter`
+Instagram | ʻInstagram`
+Nuggets | `juejin`
 Github | `github`
-豆瓣 | `douban`
+Douban | `douban`
 Facebook | `facebook`
 Dribble | `dribble`
-UI中国 | `uicn`
-简书 | `jianshu`
+UI China | ʻuicn`
+Brief book | `jianshu`
 Medium | `medium`
-领英 | `linkedin`
+LinkedIn |
 
-#### 个人简介
+#### Personal profile
 
-首页侧边栏和文章页面底部都会显示你的个人简介
+Your personal profile will be displayed on the home sidebar and at the bottom of the article page
 
 ```
-# Author 配置博主信息
-author: 'Jack'
-nickname: 'xx'
-bio: '程序员'
-avatar: 'assets/img/avatar.jpg'
+# Author configure blogger information
+Author: 'Jack'
+Nickname: 'xx'
+Bio: 'programmer'
+Avatar: 'assets/img/avatar.jpg'
 ```
 
-#### 标签
+#### Tags
 
-对侧边栏的标签模块进行相应配置：
+Configure the tag module on the sidebar accordingly:
 
 ```
 # Tags
-recommend-tags: true
-recommend-condition-size: 12
+Recommend-tags: true
+Recommend-condition-size: 12
 
 ```
 
-Tags配置说明：
+Tags configuration instructions:
 
- 属性 | 参数 | 描述
+ Properties | Arguments | Description
 -----|-----|-------
-`recommend-tags` | `true`, `false` | 是否显示推荐标签
-`recommend-condition-size` | `12` 或其他数字 | 推荐标签个数限制
+`recommend-tags` | `true`, `false` | Whether to show recommended tags
+`recommend-condition-size` | `12` or other number | Recommended number of tags limit
 
-#### 文章搜索
+#### Article Search
 
 ![](screenshot/jekyll-theme-h2o-search.png)
 
-基于Jekyll服务器生成文章索引文件 `search.json` 为博客提供搜索服务。输入文章标题或与文章标签相关的关键字即可。
+Based on the Jekyll server to generate the article index file `search.json` to provide search services for blogs. Enter the article title or keywords associated with the article tag.
 
-搜索功能默认是开启的，以卡片的样式显示在侧边栏底部。如需关闭请将配置文件 `_config.yml` 中 `search ` 属性的值改为 `false` 。
+The search function is enabled by default and is displayed in the card style at the bottom of the sidebar. To close, change the value of the `search` attribute in the `_config.yml` configuration file to `false`.
 
 ```
 # Search
-search: true
+Search: true
 ```
 
-说明 | 参数
+Description | Parameters
 ----|-----
-开启搜索功能 | `true`
-关闭搜索功能 | `false`
+Turn on search function | `true`
+Turn off search function | `false`
 
-#### 代码高亮
+#### Code Highlighting
 
-模板引入了[Prism.js](http://prismjs.com)，一款轻量、可扩展的代码语法高亮库。
+The template introduced [Prism.js] (http://prismjs.com), a lightweight, extensible code syntax highlighting library.
 
-很多知名网站如[MDN](https://developer.mozilla.org/)、[css-tricks](https://css-tricks.com/)也在用它，就连 JavaScript 之父 [Brendan Eich](https://brendaneich.com/) 也在个人博客上使用。
+Many well-known websites such as [MDN] (https://developer.mozilla.org/), [css-tricks] (https://css-tricks.com/) are also using it, even the father of JavaScript [Brendan Eich ](https://brendaneich.com/) is also used on personal blogs.
 
-![代码高亮](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-highlight.png)
+![Code highlighting](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-highlight.png)
 
-遵循 [HTML5](https://www.w3.org/TR/html5/grouping-content.html#the-pre-element) 标准，Prism 使用语义化的 `<pre>` 元素和 `<code>` 元素来标记代码区块：
+Following the [HTML5](https://www.w3.org/TR/html5/grouping-content.html#the-pre-element) standard, Prism uses semantic <pre> elements and `<code>` Elements to mark the code block:
 
 ```
 <pre><code class="language-css">p { color: red }</code></pre>
 ```
 
-在Markdown中你可以这样写：
+In Markdown you can write like this:
 
 
-	 ```css
-		p { color: red }
-	 ```
+```css
+p { color: red }
+```
 
-支持语言：
+Support language:
 
 - HTML
 - CSS
@@ -298,156 +298,156 @@ search: true
 - Go
 - Python
 
-#### 夜间模式
+#### Night mode
 
-晚11点至次日凌晨6点自动开启夜间模式。如果不需要，则将配置文件 `_config.yml` 中 `nightMode ` 属性的值改为 `false` 即可。
+Night mode is automatically switched on from 11pm to 6am. If not, change the value of the `nightMode` attribute in the `_config.yml` configuration file to `false`.
 
 ```
 # Night mode
 nightMode: true
 ```
 
-说明 | 参数
+Description | Parameters
 ----|-----
-开启夜间模式 | `true`
-关闭夜间模式 | `false`
+Turn on night mode | `true`
+Turn off night mode | `false`
 
-#### 主题皮肤
+#### Theme skin
 
 ![](screenshot/jekyll-theme-h2o-themecolor.jpg)
 
-支持两种主题颜色蓝色（默认）和粉色
+Supports two themes color blue (default) and pink
 
-主要效果体现在首页博客封面、顶部导航栏的logo以及鼠标悬停时文字显示的颜色效果。
+The main effect is reflected in the home page cover, the logo in the top navigation bar, and the color effect of text displayed when the mouse is hovering.
 
 ```
 # theme color
-theme-color: 'default' # pink or default
+Theme-color: 'default' # pink or default
 ```
 
-颜色 | 参数
+Color | Parameters
 ----|-----
-蓝色 | `default`
-粉色 | `pink`
+Blue | `default`
+Pink | `pink`
 
-如果你希望在博客封面显示图片，需要去index.html文件中的头信息中添加 `header-img` 配置：
+If you want to display a picture on your blog cover, you need to add the `header-img` configuration to the header information in the index.html file:
 
 ```
 ---
-layout: default
-home-title: Steven的博客
-description: 开发者，创造者
-header-img: assets/img/banner.jpg
+Layout: default
+Home-title: Steven's Blog
+Description: developer, creator
+Header-img: assets/img/banner.jpg
 ---
 ```
 
-#### 头图底纹
+#### Head figure shading
 
 ![](screenshot/jekyll-theme-h2o-heroPatterns.png)
 
-在没有图片的情况下单纯显示颜色会不会太无趣了点？于是想到了加入底纹元素，底纹素材是SVG格式的（保存在css样式里），加载比图片快很多。六种底纹（电路、食物、云海、钻石等等）供你选择，配置如下：
+Isn't it boring to simply display colors without pictures? So think of adding shading elements, shading material is SVG format (stored in css style), loading much faster than the picture. Six shades (circuitry, food, sea of ​​clouds, diamonds, etc.) are available for your selection and are configured as follows:
 
 ```
 # Hero background patterns
 postPatterns: 'circuitBoard'
 ```
 
-`postPatterns` 属性参数配置：
+`postPatterns` property parameter configuration:
 
-底纹描述  |  参数
+Shading description | parameters
 ------|------
-电路 | `circuitBoard`
-圆环 | `overlappingCircles`
-吃货日常：啃打鸡 | `food`
-土豪必备：钻石| `glamorous`
-圈圈叉叉 | `ticTacToe`
-中国风：云海 | `seaOfClouds`
+Circuits | `circuitBoard`
+Ring | ʻoverlappingCircles`
+Eat goods daily: beat chicken | `food`
+Locale Must Have: Diamonds | `glamorous`
+Circle cross skewer | `ticTacToe`
+Chinese style: Cloud sea | `seaOfClouds`
 
-#### 自定义
+#### customize
 
-主题开发使用的技术栈也比较简单：引入jQuery类库、使用Sass代替CSS编写样式，使用Gulp完成Sass的编译、CSS和JavaScript的代码合并压缩等任务。
+The technology stack used for theme development is also relatively simple: introduce the jQuery library, use Sass to write styles instead of CSS, and use Gulp to perform tasks such as compiling Sass, and combining code compression for CSS and JavaScript.
 
-如果你喜欢折腾，想对模板的代码进行修改，需要使用命令 `npm install` 安装 `package.json` 中的依赖，然后 `gulp` 一下即可开始你的自定义之旅。
+If you like tossing and want to modify the template code, you need to use the command `npm install` to install the dependencies in `package.json` and then `gulp` to start your custom tour.
 
-在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
+Before understanding the directory structure of the H2O theme, make sure that you understand the [Jekyll Directory Structure] (http://jekyll.com.cn/docs/structure/).
 
-```		
-	.
-	├── _config.yml # 配置文件
-	├── _includes # 页面组件方便重用
-	|   ├── footer.html # 页脚
-	|   └── head.html # html文档的头部内容
-	|   └── header.html # 顶部菜单栏
-	|   └── pageNav.html # 文章列表分页组件
-	├── _layouts # 布局模板
-	|   ├── default.html # 默认模板
-	|   └── post.html # 文章页面模板
-	├── _posts # 这里放文章
-	|   ├── 2017-05-03-elements-of-javascript-style.md # 命名格式：年-月-日-文章标题.md
-	|   └── 2007-02-21-life-on-mars.md
-	├── _site # Jekyll将源码处理后生成的站点文件，里面的内容可直接发布
-	├── assets # 存放用于线上环境的静态资源，如需修改css和js文件请到dev文件夹
-	|   ├── css # dev文件夹中sass编译后的样式文件
-	|   └── fonts # 字体文件
-	|   └── icons # 图标文件
-	|   └── img #  图片文件
-	|   └── js # dev文件夹中处理后的脚本文件
-	├── dev # 开发文件
-	|   ├── js # 存放脚本源码
-	|   └── sass # 样式源码
-	|       └── app.scss # 整合下面的所有样式文件
-	|       └── base.scss # 引入字体、Reset部分样式
-	|       └── common.scss # 模板的主要样式
-	|       └── helper.scss # 工具样式
-	|       └── layouts.scss # 响应式布局
-	└── gulpfile.js # 自动化任务脚本
-	└── index.html # 模板首页
-	└── tags.html # 标签页面
-	└── 404.html # 404页面
-	└── package.json # 管理项目的依赖项
+```
+.
+├── _config.yml # configuration file
+├── _includes # page components facilitate reuse
+| ├── footer.html # footer
+| └── head.html # html document head content
+| └── header.html # Top Menu Bar
+| └── pageNav.html # Article List Paging Component
+├── _layouts # layout template
+| ├── default.html # default template
+| └── post.html # Article Page Template
+├── _posts # Put articles here
+| ├── 2017-05-03-elements-of-javascript-style.md # Naming Format: Year-Month-Day-Article Title.md
+| └── 2007-02-21-life-on-mars.md
+├── _site # Jekyll will generate the site file after the source code, the contents of which can be directly published
+├── assets # Store static resources for online environment. If you need to modify css and js files, please go to dev folder
+| ├── css # sass compiled sass style file
+| └── fonts # font files
+| └── icons # Icon Files
+| └── img # photo files
+| └── js The processed script file in the #dev folder
+├── dev # Development Files
+| ├── js # store script source code
+| └── sass # style source
+| └── app.scss # Consolidate all the style files below
+| └── base.scss # Introduce font, Reset part style
+| └── common.scss # main style of the template
+| └── helper.scss # tool style
+| └── layouts.scss # Responsive layout
+└── gulpfile.js # Automate Task Scripting
+└── index.html # Template Home
+└── tags.html # tab page
+└── 404.html # 404 page
+└── package.json # Manage project dependencies
 ```
 
-值得注意的是，css及js的源码都在 `dev` 文件夹中，每一次保存 gulp 都会对它们进行处理并保存到 `assets` 文件夹以供 `_site` 上线环境使用。
+It is worth noting that the source code for css and js are in the `dev` folder. Each time you save gulp, they are processed and saved in the `assets` folder for use by the `_site` environment.
 
-#### Disqus
+####
 
-[Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
+[Disqus](https://disqus.com/) is a third-party social commenting plugin and the experience is quite good.
 
-模板默认开启Disqus评论插件，如需关闭请在 `_config.yml` 中配置参数 `true` (开启) 或者 `false` (关闭) :  
+The template defaults to the Disqus commenting plugin. To enable it, configure the parameter `true` (on) or `false` (off) in `_config.yml`:
 
-在配置文件 `_config.yml` 中找到Disqus的相关配置，设置 `disqus` 参数为 `true` 打开评论功能，并且设置 `disqus_url`。
+Find the configuration of Disqus in the configuration file `_config.yml`, set the `disqus` argument to `true` to open the comment function, and set `disqus_url`.
 
 ```
 # Comments
-disqus: true
-disqus_url: 'https://你的disqus账户名.disqus.com/embed.js'
+Disqus: true
+Disqus_url: 'https://your disqus account name.disqus.com/embed.js'
 ```
 
-注：`disqus` 默认值为 `false`
+Note: The default value of `disqus` is `false`
 
 #### Share.js
 
-为了让文章更方便地分享，使用了第三方分享插件[Share.js](http://overtrue.me/share.js/)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
+In order to make the article more convenient to share, the third-party sharing plugin [Share.js] (http://overtrue.me/share.js/) is used to support one-button sharing to Weibo, QQ Space, QQ Friends, Wechat, etc. Tencent Weibo, Douban, Facebook, Twitter, Linkedin, Google+, and other social networking sites.
 
 ```
 # Share
-social-share: true # 开启或者关闭分享功能
-social-share-items: ['wechat', 'weibo', 'douban','twitter']
+Social-share: true # Turn sharing on or off
+Social-share-items: ['wechat', 'weibo', 'douban','twitter']
 ```
 
-### Contribution 贡献
+### Contribution Contribution
 
 Any types of contribution are welcome. Thanks.
 
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 ```Pull Request```
+Accept various forms of contributions, including not limited to submitting questions and requirements, fixing code. Waiting for your ```Pull Request```
 
-#### 感谢参与代码贡献的伙伴
+#### Thanks for participating in code contribution partners
 
-- [Ray-Eldath](https://github.com/Ray-Eldath)
+- [Ray-Eldath] (https://github.com/Ray-Eldath)
 - [sctop](https://github.com/sctop)
-- [bananaappletw](https://github.com/bananaappletw)
-- [moycat](https://github.com/moycat)
+- [bananaappletw] (https://github.com/bananaappletw)
+- [moycat] (https://github.com/moycat)
 
-### License 许可证
+### License License
 
-Jekyll-Theme-H2O is licensed under [MIT](https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
+Jekyll-Theme-H2O is licensed under [MIT] (https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
