@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pages:
+    build: .
+    ports:
+      - 3023:4000
+    volumes:
+      - .:/app
