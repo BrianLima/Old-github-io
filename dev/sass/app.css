@@ -343,9 +343,10 @@ a {
 
 .g-sidebar-wrapper {
   float: right;
-  width: 240px; }
+  width: 400px; }
 
 .g-sidebar {
+  width: 400px;
   padding: 30px 20px;
   background-color: #fff;
   border: 1px solid #E7EAF1;
@@ -1053,3 +1054,46 @@ a {
   .home-banner .header-img {
     width: 695px;
     left: -100px; } }
+
+
+/** Projects table **/
+/*
+.cell {
+  display: table-cell;
+}
+
+.row .cell {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: unset !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.row.header .cell {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.row .cell:nth-child(1) {
+  width: 360px;
+  padding-left: 40px;
+}
+
+.row.header .cell {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+  padding-top: 19px;
+  padding-bottom: 19px;
+} */

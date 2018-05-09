@@ -31,7 +31,7 @@ disqus: false
 disqus_url: 'https://brianlima.disqus.com/embed.js'
 
 # Share
-social-share: true
+social-share: false
 social-share-items: ['Facebook', 'Reddit', 'twitter']
 
 # theme color
