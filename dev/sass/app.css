@@ -51,7 +51,7 @@ a {
 
 /*** Main style ***/
 .g-container {
-  width: 960px; }
+  width: 1300px; }
 
 .g-header {
   position: fixed;
@@ -185,7 +185,7 @@ a {
 
 .article-list {
   float: left;
-  width: 695px; }
+  width: 800px; }
   .article-list .article-item {
     width: 100%;
     margin-bottom: 16px;
@@ -343,7 +343,7 @@ a {
 
 .g-sidebar-wrapper {
   float: right;
-  width: 400px; }
+  width: 490px; }
 
 .g-sidebar {
   width: 400px;
