@@ -356,71 +356,70 @@ postPatterns: 'circuitBoard'
 
 Shading description | parameters
 ------|------
-Circuits | `circuitBoard`
-Ring | ʻoverlappingCircles`
-Eat goods daily: beat chicken | `food`
-Locale Must Have: Diamonds | `glamorous`
-Circle cross skewer | `ticTacToe`
-Chinese style: Cloud sea | `seaOfClouds`
+电路 | `circuitBoard`
+圆环 | `overlappingCircles`
+吃货日常：啃打鸡 | `food`
+土豪必备：钻石| `glamorous`
+圈圈叉叉 | `ticTacToe`
+中国风：云海 | `seaOfClouds`
 
-#### customize
+#### 自定义
 
-The technology stack used for theme development is also relatively simple: introduce the jQuery library, use Sass to write styles instead of CSS, and use Gulp to perform tasks such as compiling Sass, and combining code compression for CSS and JavaScript.
+主题开发使用的技术栈也比较简单：引入jQuery类库、使用Sass代替CSS编写样式，使用Gulp完成Sass的编译、CSS和JavaScript的代码合并压缩等任务。
 
-If you like tossing and want to modify the template code, you need to use the command `npm install` to install the dependencies in `package.json` and then `gulp` to start your custom tour.
+如果你喜欢折腾，想对模板的代码进行修改，需要使用命令 `npm install` 安装 `package.json` 中的依赖，然后 `gulp` 一下即可开始你的自定义之旅。
 
-Before understanding the directory structure of the H2O theme, make sure that you understand the [Jekyll Directory Structure] (http://jekyll.com.cn/docs/structure/).
+在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
 
 ```
-.
-├── _config.yml # configuration file
-├── _includes # page components facilitate reuse
-| ├── footer.html # footer
-| └── head.html # html document head content
-| └── header.html # Top Menu Bar
-| └── pageNav.html # Article List Paging Component
-├── _layouts # layout template
-| ├── default.html # default template
-| └── post.html # Article Page Template
-├── _posts # Put articles here
-| ├── 2017-05-03-elements-of-javascript-style.md # Naming Format: Year-Month-Day-Article Title.md
-| └── 2007-02-21-life-on-mars.md
-├── _site # Jekyll will generate the site file after the source code, the contents of which can be directly published
-├── assets # Store static resources for online environment. If you need to modify css and js files, please go to dev folder
-| ├── css # sass compiled sass style file
-| └── fonts # font files
-| └── icons # Icon Files
-| └── img # photo files
-| └── js The processed script file in the #dev folder
-├── dev # Development Files
-| ├── js # store script source code
-| └── sass # style source
-| └── app.scss # Consolidate all the style files below
-| └── base.scss # Introduce font, Reset part style
-| └── common.scss # main style of the template
-| └── helper.scss # tool style
-| └── layouts.scss # Responsive layout
-└── gulpfile.js # Automate Task Scripting
-└── index.html # Template Home
-└── tags.html # tab page
-└── 404.html # 404 page
-└── package.json # Manage project dependencies
+	.
+	├── _config.yml # 配置文件
+	├── _includes # 页面组件方便重用
+	|   ├── footer.html # 页脚
+	|   └── head.html # html文档的头部内容
+	|   └── header.html # 顶部菜单栏
+	|   └── pageNav.html # 文章列表分页组件
+	├── _layouts # 布局模板
+	|   ├── default.html # 默认模板
+	|   └── post.html # 文章页面模板
+	├── _posts # 这里放文章
+	|   ├── 2017-05-03-elements-of-javascript-style.md # 命名格式：年-月-日-文章标题.md
+	|   └── 2007-02-21-life-on-mars.md
+	├── _site # Jekyll将源码处理后生成的站点文件，里面的内容可直接发布
+	├── assets # 存放用于线上环境的静态资源，如需修改css和js文件请到dev文件夹
+	|   ├── css # dev文件夹中sass编译后的样式文件
+	|   └── fonts # 字体文件
+	|   └── icons # 图标文件
+	|   └── img #  图片文件
+	|   └── js # dev文件夹中处理后的脚本文件
+	├── dev # 开发文件
+	|   ├── js # 存放脚本源码
+	|   └── sass # 样式源码
+	|       └── app.scss # 整合下面的所有样式文件
+	|       └── base.scss # 引入字体、Reset部分样式
+	|       └── common.scss # 模板的主要样式
+	|       └── helper.scss # 工具样式
+	|       └── layouts.scss # 响应式布局
+	└── gulpfile.js # 自动化任务脚本
+	└── index.html # 模板首页
+	└── tags.html # 标签页面
+	└── 404.html # 404页面
+	└── package.json # 管理项目的依赖项
 ```
 
-It is worth noting that the source code for css and js are in the `dev` folder. Each time you save gulp, they are processed and saved in the `assets` folder for use by the `_site` environment.
+值得注意的是，css及js的源码都在 `dev` 文件夹中，每一次保存 gulp 都会对它们进行处理并保存到 `assets` 文件夹以供 `_site` 上线环境使用。
 
-####
+#### Disqus
 
-[Disqus](https://disqus.com/) is a third-party social commenting plugin and the experience is quite good.
+[Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
 
-The template defaults to the Disqus commenting plugin. To enable it, configure the parameter `true` (on) or `false` (off) in `_config.yml`:
-
-Find the configuration of Disqus in the configuration file `_config.yml`, set the `disqus` argument to `true` to open the comment function, and set `disqus_url`.
+在配置文件 `_config.yml` 中找到comments的相关配置，设置 `disqus` 参数为 `true` 打开评论功能（ `false` 为关闭），并且设置 `disqus_url`。
 
 ```
 # Comments
-Disqus: true
-Disqus_url: 'https://your disqus account name.disqus.com/embed.js'
+comments:
+	disqus: true
+	disqus_url: 'https://your-disqus-username.disqus.com/embed.js'
 ```
 
 Note: The default value of `disqus` is `false`
