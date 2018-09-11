@@ -449,5 +449,4 @@ Accept various forms of contributions, including not limited to submitting quest
 - [moycat] (https://github.com/moycat)
 
 ### License License
-
 Jekyll-Theme-H2O is licensed under [MIT] (https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
