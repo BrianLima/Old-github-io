@@ -5,7 +5,7 @@ keyword: 'C#, CSharp, Briano, Brian Lima, Programador, WPF, UWPHook, brianostorm
 url: '' # your host
 
 # if you don't need baseurl, you should leave this value blank.
-baseurl: ''
+baseurl: 'https://dyzsoft.github.io/jekyll-theme-H2O/'
 
 # Navigation links
 nav:
