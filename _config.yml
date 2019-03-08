@@ -2,7 +2,7 @@
 title: 'Brian Lima'
 description: 'Dev and personal blog for my adventures'
 keyword: 'C#, CSharp, Briano, Brian Lima, Programador, WPF, UWPHook, brianostorm'
-url: '' # your host
+url: 'https://briano.dev' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -17,7 +17,7 @@ nav:
 # Author
 author: 'Brian Lima'
 nickname: 'Briano/Brianostorm'
-bio: '23, .Net developer, likes Visual Studio and Windows, loves to build PCs and mess with hardware, drinks more coffee than he should.'
+bio: '25, .Net developer, likes Visual Studio and Windows, loves to build PCs and mess with hardware, drinks more coffee than he should.'
 avatar: 'https://avatars1.githubusercontent.com/u/1337383?s=460&v=4'
 
 # Search
@@ -43,11 +43,11 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  github: '//github.com//BrianLima'
-  linkedin: 'https://linkedin.com//brian-lima-dos-santos-25345754/'
+  github: 'https://github.com/BrianLima'
+  linkedin: 'https://linkedin.com/in/brian-lima-dos-santos-25345754/'
   twitter: 'https://twitter.com//brianostorm'
-  facebook: 'https://facebook.com//brianlima'
-  instagram: '//www.instagram.com//Brianostorm'
+  facebook: 'https://facebook.com/brianostorm'
+  instagram: 'https://www.instagram.com/Brianostorm'
 
 
 # Tags
